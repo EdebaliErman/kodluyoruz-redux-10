@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+.Card{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem;
+}
+.infected,.deaths,.recovered,.active{
+  background-color: rgb(59 130 246 / .5);
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: inset 1px 1px 1rem 1rem rgb(255, 255, 255),12px 11px 12px 3px rgb(48, 47, 47);
+}
+.deaths{background-color: rgb(254 202 202);}
+.recovered{background-color: rgb(187 247 208);}
+.active{background-color: rgb(254 240 138);}
+
+select{
+  padding: 1rem;
+  border-radius: 12rem;
+  border: none;
+  background-color: rgb(245, 244, 244);
+  box-shadow:inset 1px 1px 12px 1px rgb(168, 164, 164);
+}
+option{
+  margin: 1rem;
+}
